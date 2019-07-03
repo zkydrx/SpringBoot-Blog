@@ -1,8 +1,8 @@
 
 -- 创建数据库
-create database `tale` default character set utf8 collate utf8_general_ci;
+create database `blog_db` default character set utf8 collate utf8_general_ci;
 
-use tale;
+use blog_db;
 
 DROP TABLE IF EXISTS `t_logs`;
 
